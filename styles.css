@@ -1,0 +1,122 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #888B8D;
+    background-color: #FFF9D9;
+}
+
+/* Header Styles */
+header {
+    background-color: #C8102E;
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #F6BE00;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #888B8D;
+    font-weight: bold;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
+
+/* Call-to-Action Buttons Styles */
+.cta-buttons button {
+    background-color: #F6BE00;
+    color: #888B8D;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.cta-buttons button:hover {
+    background-color: #888B8D;
+    color: #FFF9D9;
+}
+
+/* Menu Styles */
+.menu {
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.menu h2 {
+    color: #C8102E;
+}
+
+.menu h3 {
+    color: #F6BE00;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu ul li {
+    margin-bottom: 10px;
+}
+
+/* About Us Section Styles */
+.about {
+    margin-top: 20px;
+}
+
+.about h2 {
+    color: #C8102E;
+}
+
+.about a {
+    text-decoration: none;
+    color: #888B8D;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.about li {
+    margin-bottom: 10px;
+}
+
+.dining-hall-food{
+    width: 200px;
+    max-height: 400px;
+    border-radius: 15px;
+    display: block;
+    margin: 10px auto;
+}
+
+.owner-headshot {
+    width: 200px;
+    height:auto;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
