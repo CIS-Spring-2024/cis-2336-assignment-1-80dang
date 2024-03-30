@@ -1,0 +1,124 @@
+/* Reset some default styling */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+header {
+    background-color: #C8102E;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+nav ul li a:hover {
+    color: black; /* Text color on hover */
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.image-section {
+    padding: 20px;
+    text-align: center;
+    background-size: cover;
+}
+
+.rounded-image {
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+h1 {
+    color: #C8102E; /* Heading color */
+    margin-bottom: 20px; /* Add spacing below the heading */
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.pill-button {
+    background-color: #C8102E;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* Hours and Location Styles */
+h2{
+    color: #C8102E; 
+    margin-bottom: 20px; 
+}
+.hours-location {
+    flex: 1;
+    padding-left: 20px;
+    text-align: center;
+}
+
+/* Footer Styles */
+footer {
+    
+    background-color: #C8102E; /* Updated background color */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo img {
+    flex:1;
+    height: 10px; /* Adjust logo size */
+    margin-right: 10px;
+}
+
+.footer-links a {
+    flex:1;
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+.footer-info {
+    text-align: right;
+}
+
+.footer-info p {
+    font-size: 12px; 
+}

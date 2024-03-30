@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="styles.css" rel="stylesheet" type="text/css"> 
+    <link href="hstyles.css" rel="stylesheet" type="text/css"> 
    
     <title>UH Sugar Land Cafeteria</title>
 </head>
@@ -12,67 +12,54 @@
 
 <body>
 <header>
-    <h1>University of Houston Sugar Land Cafeteria</h1>
+    <div class="logo">
+        <img src="images/logo.png" alt="UH Logo">
+    </div>
+
     <nav>
         <ul>
             <li><a href=#menu>Menu</a></li>
             <li><a href=#about>About Us</a></li>
             <li><a href=#contact>Contact</a></li>
+            <li><a href=#order>Order Now</a></li>
         </ul>
     </nav>
-    <h1>Cougar Cuisine</h1>
-    <img src="images/dininghallfood.jpg" alt="Dining Hall Food" class="dining-hall-food">
 </header>
+
 
 <main>
     <section class="home">
+    <div class="image-section">
+        <img src="images/dininghallfood.jpg" alt="Cougar Cuisine" 
+    class="rounded-image">
+        <h1>Cougar Cuisine</h1>
+        <div class="buttons">
+                <button class="pill-button">Order Now</button>
+                <button class="pill-button">View Menu</button>
+            </div>
+        </div>
+
+        <div class="hours-location">
         <h2>Hours of Operation and Location</h2>
-        <p>Monday - Friday: 7:30 AM - 8:00 PM</p>
-        <p>Saturday - Sunday: Closed</p>
-    </section>
-
-    <section class="home">
-        <h2>Location</h2>
-        <address>
-            14000 University Blvd<br>
-            Sugar Land, Texas 77479
-        </address>
-    </section>
-
-    <section class="cta-buttons">
-        <button onclick="location.href='#order'">Order Now</button>
-        <button onclick="location.href='#menu'">View Menu</button>
-    </section>
+        <p>Weekdays: 8:00 AM - 8:00 PM</p>
+        <p>Weekends: Closed</p>
+        <p>Holidays: Closed</p>
+        <p>Address: 14000 University Blvd, Sugar Land, TX 77479</p>
+    </div>
 </main>
   
-    <section class="menu">
-        <h2>Today's Menu</h2>
-        <h3>Breakfast</h3>
-            <ul>
-                <li>Scrambled Eggs and French Toast</li>
-                <li>Avocado Toast on Sourdough Bread</li>
-                <li>Cinnamon Apple Oatmeal Muffins</li>
-            </ul>
-        <h3>Lunch</h3>
-            <li>Chicken Caesar Salad</li>
-            <li>Spicy Chicken Sandwich</li>
-            <li>Spinach and Feta Pizza</li>
-
-        <h3>Dinner</h3>
-            <li>Marry Me Chicken Pasta</li>
-            <li>Grilled Atlantic Salmon</li>
-            <li>Chicken Caesar Salad</li>
-   
-        </section class="about">
-            <h2>About Us</h2>
-                <a href="owner-bio.html">Meet the Owner</a>
-            <li>Meet the Team</li>
-            <li>Careers</li>
-            <li>Contact Us</li>
-
-    <section>
-
-    </section>
-</main>
-
+    <footer>
+        <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#order">Order Now</a>
+            <a href="#owner">Meet the Owner</a>
+            <a href="#careers">Careers</a>
+        </div>
+        <div class="footer-info">
+            <p>Annie Dang</p>
+            <p>&copy; 2024 UOH Sugarland Cafeteria. Privacy Policy. Terms of Use.</p>
+        </div>
+    </footer>
 </body>
+</html>    

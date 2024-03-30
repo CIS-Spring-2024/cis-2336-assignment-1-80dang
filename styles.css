@@ -39,6 +39,11 @@ nav a {
     font-weight: bold;
 }
 
+.dining-hall-food {
+    width: 100px;
+    height: 75px;
+}
+
 /* Main Content Styles */
 main {
     padding: 20px;
@@ -113,10 +118,45 @@ main {
     margin: 10px auto;
 }
 
-.owner-headshot {
-    width: 200px;
+
+/* Owner Image and Biography */
+.owner-about {
+    width: 300px;
     height:auto;
     border-radius: 50%;
     display: block;
-    margin: 0 auto;
+    margin-left: 0 auto;
 }
+
+.image-owner{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    width: 200px;
+
+}
+
+.summary {
+    font-size: 25px; 
+    line-height: 1.5;
+    text-align: left;
+    color: black;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.footer{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #C8102E;
+        padding: 10px;
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        
+    }
