@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #D0D0CE; /* UH's primary color */
+  }
+  
+ /* Header Styles */
+header {
+    background-color: #C8102E;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+nav ul li a:hover {
+    color: black; /* Text color on hover */
+}
+  main {
+    padding: 20px;
+  }
+  
+  .owner-about {
+    display: flex;
+    align-items: center;
+  }
+  
+  .image-owner {
+    border-radius: 4px;
+    width: 75%;
+    height: auto;
+    float: right;
+  }
+  
+  .owner-info {
+    padding-left: 20px;
+  }
+  
+  .owner-info h1 {
+    color: #C8102E;
+    font-size: 50px;
+    font-weight: bold; 
+  }
+
+  .owner-about h2{
+    text-align: right;
+    max-width: 600px;
+    margin:0 auto;
+  }
+  
+  /* Footer Styles */
+footer {
+    
+    background-color: #C8102E; /* Updated background color */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo img {
+    flex:1;
+    height: 10px; /* Adjust logo size */
+    margin-right: 10px;
+}
+
+.footer-links a {
+    flex:1;
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+.footer-info {
+    text-align: right;
+}
+
+.footer-info p {
+    font-size: 12px; 
+}
