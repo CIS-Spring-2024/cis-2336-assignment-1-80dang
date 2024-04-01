@@ -64,6 +64,7 @@ main {
 h1 {
     color: #C8102E; /* Heading color */
     margin-bottom: 20px; /* Add spacing below the heading */
+    font-size: 50px;
 }
 
 .buttons {
